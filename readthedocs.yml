@@ -5,7 +5,10 @@ build:
   os: ubuntu-lts-latest
   tools:
     python: mambaforge-latest
+      install:
+        - requirements: requirements.txt
   # https://jupyterbook.org/en/stable/publish/readthedocs.html
+
   jobs:
     pre_build:
       - jupyter-book config sphinx .
