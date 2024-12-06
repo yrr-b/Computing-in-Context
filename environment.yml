@@ -25,3 +25,4 @@ dependencies:
   - statsmodels
   # https://pandas.pydata.org/docs/user_guide/io.html#excel-files
   - xlrd
+  - plotly
